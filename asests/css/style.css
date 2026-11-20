@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    height: 100vh;
+    background-color: gainsboro;
+    padding: 20px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myform{
+    background-color:  white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid gray;
+}
