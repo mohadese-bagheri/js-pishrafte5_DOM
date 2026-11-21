@@ -8,6 +8,6 @@ function open() {
    if (newpage) {
         setTimeout(() => {
             newpage.close();
-        }, 1000);
+        }, 700000);
     }
 }
